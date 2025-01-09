@@ -41,7 +41,7 @@
       },
       "calcul": {
         "responsable": "M. Responsable en Chef",
-        "methode": "Omnis est eos molestiae repellendus alias corrupti. Ut hic harum magni dolor numquam nisi nihil eum. Consequatur a dicta perferendis mollitia quis illo expedita. Rem autem libero possimus autem omnis sequi molestiae."
+        "methode": "**Omnis** est eos molestiae repellendus alias corrupti\n\n.Ut hic harum magni dolor numquam nisi nihil eum. Consequatur a dicta perferendis mollitia quis illo expedita. Rem autem libero possimus autem omnis sequi molestiae."
       },
       // mailles géographiques (toutes) - v2
       "mailles_geographiques": ["fr:iris", "fr:commune"]
