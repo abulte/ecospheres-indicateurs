@@ -34,8 +34,8 @@
       "api": {
         // noms cubes API
         "noms_cubes": ["Cubique", "Sphérique"],
-        // noms axes API
-        "nom_axes": ["Hache", "Scie"],
+        // axes API
+        // -> voir "axes" au niveau supérieur
         // requête API - quel format ?
         "requete": "xxx"
       },
