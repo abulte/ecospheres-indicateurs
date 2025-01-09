@@ -1,0 +1,50 @@
+{
+  "extras": {
+    "ecospheres-indicateurs": {
+      // id interne indicateur
+      "id": "xxx",
+      // axes
+      "axes": {
+        // axe
+        "type_amenagement":
+        // valeurs des axes
+        [
+          "pistes cyclables",
+          "bandes cyclables",
+          "double sens cyclables"
+        ],
+        // axe
+        "secteur":
+        // valeurs des axes
+        [
+          "secteur a",
+          "secteur b"
+        ]
+      },
+      // unité
+      "unite": "km / 1000 hab.",
+      "source": {
+        // lien source (originelle)
+        "url": "https:///example.com/fr/datasets/part-de-voiries-amenagees-pour-les-cycles/",
+        // description source
+        "description": "Ea minus quos consequatur odio voluptatem quia neque esse. Eos consectetur asperiores quos est accusamus dolorum culpa voluptates. Velit voluptatum commodi ratione provident omnis molestiae praesentium. Quis minima molestiae velit accusantium eaque.",
+        // producteur source
+        "producteur": "SDES (MTE)"
+      },
+      "api": {
+        // noms cubes API
+        "noms_cubes": ["Cubique", "Sphérique"],
+        // noms axes API
+        "nom_axes": ["Hache", "Scie"],
+        // requête API - quel format ?
+        "requete": "xxx"
+      },
+      "calcul": {
+        "responsable": "M. Responsable en Chef",
+        "methode": "Omnis est eos molestiae repellendus alias corrupti. Ut hic harum magni dolor numquam nisi nihil eum. Consequatur a dicta perferendis mollitia quis illo expedita. Rem autem libero possimus autem omnis sequi molestiae."
+      },
+      // mailles géographiques (toutes) - v2
+      "mailles_geographiques": ["fr:iris", "fr:commune"]
+    }
+  }
+}

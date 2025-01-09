@@ -1,0 +1,121 @@
+{
+  "acronym": null,
+  "archived": null,
+  "badges": [],
+  "contact_point": null,
+  "created_at": "2024-11-25T16:10:11.596000+00:00",
+  "deleted": null,
+  // description
+  "description": "L'indicateur mesure le kilométrage de voiries aménagées (pistes le long de la voirie, bandes cyclables et couloirs bus autorisés aux vélos, les zones 30, les aires piétonnes…) sur le kilométrage total de voirie.\n\nLes aménagements à double-sens compte pour 1, les sens unique pour 0,5 ; les aménagements hors voirie ne sont pas pris en compte (voies vertes, pistes ne suivant pas le tracé de la voirie, allées de parcs, ...).\n\nLes valeurs de références sont basées sur un traitement des données du Club des villes et territoires cyclables, dans le cadre de l’Observatoire des mobilités actives, enquête 2015-2016.\"\n",
+  // voir zoom extras plus bas
+  "extras": {},
+  // fréquence actualisation (source)
+  "frequency": "daily",
+  "frequency_date": null,
+  "harvest": null,
+  "id": "6744a1636caf91990aab386b",
+  "internal": {
+    "created_at_internal": "2024-11-25T16:10:11.596000+00:00",
+    "last_modified_internal": "2025-01-08T08:34:51.315000+00:00"
+  },
+  "last_modified": "2025-01-08T08:34:51.315000+00:00",
+  // date de mise à jour
+  "last_update": "2025-01-08T08:34:51.328000+00:00",
+  // licence
+  "license": "lov2",
+  "metrics": {
+    "discussions": 0,
+    "followers": 0,
+    "resources_downloads": 0,
+    "reuses": 0,
+    "views": 0
+  },
+  // lien vers organisation indicateurs
+  "organization": {
+    "acronym": null,
+    "badges": [],
+    "class": "Organization",
+    "id": "673dafb02cf54cfb2ccbd118",
+    "logo": "https://demo-static.data.gouv.fr/avatars/39/c31b466cfd40058ebcd85835ab99bc-original.png",
+    "logo_thumbnail": "https://demo-static.data.gouv.fr/avatars/39/c31b466cfd40058ebcd85835ab99bc-100.png",
+    "name": "Ecospheres Indicateurs Test",
+    "page": "https://demo.data.gouv.fr/fr/organizations/ecospheres-indicateurs-test/",
+    "slug": "ecospheres-indicateurs-test",
+    "uri": "https://demo.data.gouv.fr/api/1/organizations/ecospheres-indicateurs-test/"
+  },
+  "owner": null,
+  "page": "https://demo.data.gouv.fr/fr/datasets/part-de-voiries-amenagees-pour-les-cycles/",
+  "private": false,
+  "quality": {
+    "all_resources_available": true,
+    "dataset_description_quality": true,
+    "has_open_format": false,
+    "has_resources": true,
+    "license": true,
+    "resources_documentation": false,
+    "score": 0.3333333333333333,
+    "spatial": false,
+    "temporal_coverage": false,
+    "update_frequency": false
+  },
+  // lien vers fichiers de données
+  "resources": [
+    {
+      "checksum": null,
+      "created_at": "2025-01-08T08:34:51.328000+00:00",
+      "description": null,
+      "extras": {},
+      "filesize": null,
+      "filetype": "file",
+      "format": null,
+      "harvest": null,
+      "id": "54efbd09-217b-4058-baf9-d66e59b18096",
+      "internal": {
+        "created_at_internal": "2025-01-08T08:34:51.328000+00:00",
+        "last_modified_internal": "2025-01-08T08:34:51.328000+00:00"
+      },
+      "last_modified": "2025-01-08T08:34:51.328000+00:00",
+      "latest": "https://demo.data.gouv.fr/fr/datasets/r/54efbd09-217b-4058-baf9-d66e59b18096",
+      "metrics": {},
+      "mime": null,
+      "preview_url": null,
+      "schema": null,
+      "title": "Ressource d'exemple pour 'Part de voiries aménagées pour les cycles'",
+      "type": "other",
+      "url": "https://example.com/data.csv"
+    }
+  ],
+  "schema": null,
+  "slug": "part-de-voiries-amenagees-pour-les-cycles",
+  "spatial": {
+    "geom": null,
+    // maille minimale
+    // (https://www.data.gouv.fr/fr/datasets/geozones/)
+    "granularity": "fr:iris",
+    // couverture géographique
+    // (https://www.data.gouv.fr/fr/datasets/geozones/)
+    "zones": [
+      "country-subset:fr:metro"
+    ]
+  },
+  // mapping filtres
+  // https://github.com/opendatateam/udata-front-kit/blob/2c3a3b5e7490c6457f1917fa3acab71667271f33/configs/ecospheres/config.yaml#L246
+  "tags": [
+    "ecospheres-indicateurs-enjeu-attenuation",
+    "ecospheres-indicateurs-enjeu-sante",
+    "ecospheres-indicateurs-famille-transports",
+    "ecospheres-indicateurs-levier-fertilisation",
+    "ecospheres-indicateurs-producteur-sdes",
+    "ecospheres-indicateurs-secteur-agriculture",
+    "ecospheres-indicateurs-sous-famille-reseau-cyclable",
+    "ecospheres-indicateurs-theme-mieux-se-deplacer"
+  ],
+  // couverture temporelle
+  "temporal_coverage": {
+    "start": "2015-01-01",
+    "end": "2021-12-31"
+  },
+  // libellé
+  "title": "Part de voiries aménagées pour les cycles",
+  "uri": "https://demo.data.gouv.fr/api/1/datasets/part-de-voiries-amenagees-pour-les-cycles/"
+}

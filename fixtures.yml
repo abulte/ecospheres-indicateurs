@@ -1,0 +1,43 @@
+datasets:
+  - id: 6744a1636caf91990aab386b
+    title: "Part de voiries aménagées pour les cycles"
+    description: |
+      L'indicateur mesure le kilométrage de voiries aménagées (pistes le long de la voirie, bandes cyclables et couloirs bus autorisés aux vélos, les zones 30, les aires piétonnes…) sur le kilométrage total de voirie.
+
+      Les aménagements à double-sens compte pour 1, les sens unique pour 0,5 ; les aménagements hors voirie ne sont pas pris en compte (voies vertes, pistes ne suivant pas le tracé de la voirie, allées de parcs, ...).
+
+      Les valeurs de références sont basées sur un traitement des données du Club des villes et territoires cyclables, dans le cadre de l’Observatoire des mobilités actives, enquête 2015-2016."
+    tags:
+      - ecospheres-indicateurs-theme-mieux-se-deplacer
+      - ecospheres-indicateurs-enjeu-sante
+      - ecospheres-indicateurs-enjeu-attenuation
+      - ecospheres-indicateurs-famille-transports
+      - ecospheres-indicateurs-sous-famille-reseau-cyclable
+      - ecospheres-indicateurs-levier-fertilisation
+      - ecospheres-indicateurs-secteur-agriculture
+      - ecospheres-indicateurs-producteur-sdes
+    extras: templates/extras.jsonc
+  - id: 6744a1646caf91990aab386c
+    title: "Linéaire d'aménagement cyclable du territoire pour 1000 habitants"
+    description: |
+      L’indicateur représente le nombre de kilomètres d’aménagements cyclables sur le territoire, tous types d’aménagements confondus (selon 6 types d’aménagements: pistes cyclables, bandes cyclables, voies bus partagées, voies vertes, double sens cyclables, aménagements mixtes), et sécurisés rapporté au nombre d’habitants (pour 1000) du territoire.
+    tags:
+      - ecospheres-indicateurs-theme-mieux-se-deplacer
+      - ecospheres-indicateurs-enjeu-sante
+      - ecospheres-indicateurs-enjeu-attenuation
+      - ecospheres-indicateurs-famille-transports
+      - ecospheres-indicateurs-sous-famille-reseau-cyclable
+      - ecospheres-indicateurs-levier-elevage
+      - ecospheres-indicateurs-secteur-dechets
+      - ecospheres-indicateurs-producteur-geovelo
+  - id: 6744a64ef5cda6cf3d069f1f
+    title: "Pouvoir de réchauffement global"
+    description: |
+      Pouvoir de réchauffement global par secteur (Agriculture/CO2 biomasse hors total/Déchets/Energie/Industrie hors énergie/Résidentiel/Tertiaire/Transports
+    tags:
+      - ecospheres-indicateurs-theme-autre
+      - ecospheres-indicateurs-enjeu-attenuation
+      - ecospheres-indicateurs-famille-transverse
+      - ecospheres-indicateurs-sous-famille-emissions
+      - ecospheres-indicateurs-levier-gestion-forets
+      - ecospheres-indicateurs-secteur-batiment
