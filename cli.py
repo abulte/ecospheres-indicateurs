@@ -32,6 +32,10 @@ def fixtures(env: str = "demo", org_slug: str = "ecospheres-indicateurs-test"):
                     "url": "https://example.com/data.csv",
                 }
             ],
+            "temporal_coverage": {
+                "start": "2022-01-01",
+                "end": "2024-12-31",
+            }
         }
         if extras_path := dataset.get("extras"):
             with open(extras_path) as f:
