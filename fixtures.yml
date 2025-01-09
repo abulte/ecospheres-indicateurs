@@ -16,6 +16,7 @@ datasets:
       - ecospheres-indicateurs-levier-fertilisation
       - ecospheres-indicateurs-secteur-agriculture
       - ecospheres-indicateurs-producteur-sdes
+      - ecospheres-indicateurs-usage-usage-1
     extras: templates/extras.jsonc
   - id: 6744a1646caf91990aab386c
     title: "Linéaire d'aménagement cyclable du territoire pour 1000 habitants"
@@ -30,6 +31,7 @@ datasets:
       - ecospheres-indicateurs-levier-elevage
       - ecospheres-indicateurs-secteur-dechets
       - ecospheres-indicateurs-producteur-geovelo
+      - ecospheres-indicateurs-usage-usage-2
   - id: 6744a64ef5cda6cf3d069f1f
     title: "Pouvoir de réchauffement global"
     description: |
