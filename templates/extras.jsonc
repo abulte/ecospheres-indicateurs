@@ -24,8 +24,10 @@
       // unité
       "unite": "km / 1000 hab.",
       "sources": [{
+        // COMMENTAIRE : je me rends compte qu'on n'a pas mappé le libellé de la source dans cet extract avec nos valeurs, peut être qu'il faudrait ou le lien suffit ?
         "nom": "La source du SDES",
         // lien source (originelle)
+        // COMMENTAIRE : Ici on parle du lien de la page ou de l'extraction du fichier ? Idéallement du lien de la page si c'est le cas revoir le mapping pour mettre lien page
         "url": "https://example.com/fr/datasets/part-de-voiries-amenagees-pour-les-cycles/",
         // description source
         "description": "Lorem markdownum tu loquax tamen alta Iove admonitus munera, **Sarpedonis**.\nVara retro ira omnibus fronti convocat moriens corpus diverso, occidit.\n\n- Inane nescio Claros mihi iubete arvo\n- Grege arcum novena omnia totis\n- Illa plebis sim probat artem\n- A nefas cupiens\n- Ignoscas tantum\n- Tua Tlepolemus at sibi ter gentis",
@@ -34,6 +36,7 @@
         // distributeur source
         "distributeur": "SDES (MTE)",
         // plage temporelle source
+        // COMMENTAIRE : Ici il n'y a pas de format par défaut, peut être qu'on veut se baser sur le même format que pour la couverture temporelle datagouv auquel cas un dictionnaire avec start date et end date
         "plage_temporelle": "2020 - 2023"
       }, {
         "nom": "Une autre source",
@@ -43,12 +46,38 @@
         "distributeur": "Autre distributeur",
         "plage_temporelle": "2020, 2021, 2023"
       }],
-      "api": {
+      "api": {        
+        // COMMENTAIRE : il faut ajoute l'ID dans la fiche API, c'est un paramètre de la requête
         // noms cubes API
         "noms_cubes": ["Cubique", "Sphérique"],
         // axes API
         // -> voir "axes" au niveau supérieur
         // requête API - quel format ?
+        // COMMENTAIRE : exemple de requête API utilisant les paramètres: {{noms_cubes}}, {{id_indicateur}, {{axes}}
+                /*
+                Query paramétrisée
+                        {
+                          "query": {
+                            "measures": ["noms_cubes.id_{{id_indicateur}}"],
+                            "timezone": "UTC",
+                            "dimensions": ["{{noms_cubes}}.libelle_region", "{{noms_cubes}}.{{axes.key[0]}}"],
+                            "timeDimensions": [{"dimension":"{{noms_cubes}}.date_mesure","granularity":"year"
+                        }],
+                            "limit": 50
+                          }
+                        }
+                Exemple de requête, stationnement_velo, id 592, type_accroche au niveau régional
+                      {
+                          "query": {
+                            "measures": ["stationnement_velo.id_id_592"],
+                            "timezone": "UTC",
+                            "dimensions": ["stationnement_velo.libelle_region", "stationnement_velo.type_accroche"],
+                            "timeDimensions": [{"dimension":"stationnement_velo.date_mesure","granularity":"year"
+                        }],
+                            "limit": 50
+                          }
+                        }
+                */
         "requete": "xxx"
       },
       "calcul": {
