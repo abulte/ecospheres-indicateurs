@@ -1,4 +1,7 @@
+// COMMENTAIRE : pour faire ces commentaires je me base sur le mapping présent ici https://grist.numerique.gouv.fr/o/ecolabservicesdonnees/49SPrgL9jgVv/Referentiel-dindicateurs/p/145
+
 {
+  // COMMENTAIRE : D'après le mapping acronym est le libellé de l'indicateur du coup ce serait un string  
   "acronym": null,
   "archived": null,
   "badges": [],
@@ -94,12 +97,16 @@
     "granularity": "fr:iris",
     // couverture géographique
     // (https://www.data.gouv.fr/fr/datasets/geozones/)
+    // COMMENTAIRE : Je ne vois pas de champ couverture spatiale explicité ici, est-ce un oubli ? ou est-ce que c'est dans les zones? Pas clair non plus comment afficher cette couverture car le lien pointe vers le fichier de niveau
+    //               géographique mais je ne vois pas le fichier contenant les valeurs de couverture auquels je m'attends. e.g. France Métropolitaine, DROM, etc.
+
     "zones": [
       "country-subset:fr:metro"
     ]
   },
   // mapping filtres
   // https://github.com/opendatateam/udata-front-kit/blob/2c3a3b5e7490c6457f1917fa3acab71667271f33/configs/ecospheres/config.yaml#L246
+  // COMMENTAIRE : si je comprends bien ces tags viendront directement du fichier YAML stocké plus haut et générés aujourd'hui par Victoria ? 
   "tags": [
     "ecospheres-indicateurs-enjeu-attenuation",
     "ecospheres-indicateurs-enjeu-sante",
@@ -111,11 +118,13 @@
     "ecospheres-indicateurs-theme-mieux-se-deplacer"
   ],
   // couverture temporelle
+  // COMMENTAIRE : Pour adapter ces données dans le GRIST tu attends 2 colonnes: start_date, end_date ou est-ce que tu attends une seule colonne de format liste ?
   "temporal_coverage": {
     "start": "2015-01-01",
     "end": "2021-12-31"
   },
   // libellé
+  // COMMENTAIRE : finalement le libellé est mappé avec le titre et pas avec l'acronym ?
   "title": "Part de voiries aménagées pour les cycles",
   "uri": "https://demo.data.gouv.fr/api/1/datasets/part-de-voiries-amenagees-pour-les-cycles/"
 }
