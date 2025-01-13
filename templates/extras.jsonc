@@ -1,8 +1,6 @@
 {
   "extras": {
     "ecospheres-indicateurs": {
-      // id interne indicateur
-      "id": "xxx",
       // axes
       "axes": {
         // axe
@@ -50,6 +48,8 @@
         }
       }],
       "api": {
+        // id interne indicateur
+        "id": "xxx",
         // noms cubes API
         "noms_cubes": ["Cubique", "Sphérique"],
         // axes API
