@@ -23,14 +23,26 @@
       },
       // unité
       "unite": "km / 1000 hab.",
-      "source": {
+      "sources": [{
+        "nom": "La source du SDES",
         // lien source (originelle)
         "url": "https:///example.com/fr/datasets/part-de-voiries-amenagees-pour-les-cycles/",
         // description source
-        "description": "Ea minus quos consequatur odio voluptatem quia neque esse. Eos consectetur asperiores quos est accusamus dolorum culpa voluptates. Velit voluptatum commodi ratione provident omnis molestiae praesentium. Quis minima molestiae velit accusantium eaque.",
+        "description": "Lorem markdownum tu loquax tamen alta Iove admonitus munera, **Sarpedonis**.\\nVara retro ira omnibus fronti convocat moriens corpus diverso, occidit.\\n\\n- Inane nescio Claros mihi iubete arvo\\n- Grege arcum novena omnia totis\\n- Illa plebis sim probat artem\\n- A nefas cupiens\\n- Ignoscas tantum\\n- Tua Tlepolemus at sibi ter gentis",
         // producteur source
-        "producteur": "SDES (MTE)"
-      },
+        "producteur": "SDES (MTE)",
+        // distributeur source
+        "distributeur": "SDES (MTE)",
+        // plage temporelle source
+        "plage_temporelle": "2020 - 2023"
+      }, {
+        "nom": "Une autre source",
+        "url": "https://ux.stackexchange.com.notlegitstackexchange.com/questions/40326/best-way-to-handle-long-urls",
+        "description": "Lorem markdownum tu loquax tamen alta Iove admonitus munera, **Sarpedonis**.\\nVara retro ira omnibus fronti convocat moriens corpus diverso, occidit.\\n\\n- Inane nescio Claros mihi iubete arvo\\n- Grege arcum novena omnia totis\\n- Illa plebis sim probat artem\\n- A nefas cupiens\\n- Ignoscas tantum\\n- Tua Tlepolemus at sibi ter gentis",
+        "producteur": "Autre producteur",
+        "distributeur": "Autre distributeur",
+        "plage_temporelle": "2020, 2021, 2023"
+      }],
       "api": {
         // noms cubes API
         "noms_cubes": ["Cubique", "Sphérique"],
