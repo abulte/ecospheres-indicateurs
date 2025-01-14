@@ -10,13 +10,11 @@ datasets:
     tags:
       - ecospheres-indicateurs-theme-mieux-se-deplacer
       - ecospheres-indicateurs-enjeu-sante
-      - ecospheres-indicateurs-enjeu-attenuation
-      - ecospheres-indicateurs-famille-transports
-      - ecospheres-indicateurs-sous-famille-reseau-cyclable
-      - ecospheres-indicateurs-levier-fertilisation
-      - ecospheres-indicateurs-secteur-agriculture
-      - ecospheres-indicateurs-producteur-sdes
-      - ecospheres-indicateurs-usage-usage-1
+      - ecospheres-indicateurs-enjeu-adaptation
+      - ecospheres-indicateurs-levier-renovation-hors-changement-chaudieres
+      - ecospheres-indicateurs-secteur-agriculture-forets-sols
+      - ecospheres-indicateurs-producteur-ademe
+      - ecospheres-indicateurs-usage-cop-region
     extras: templates/extras.jsonc
   - id: 6744a1646caf91990aab386c
     title: "Linéaire d'aménagement cyclable du territoire pour 1000 habitants"
@@ -25,21 +23,17 @@ datasets:
     tags:
       - ecospheres-indicateurs-theme-mieux-se-deplacer
       - ecospheres-indicateurs-enjeu-sante
-      - ecospheres-indicateurs-enjeu-attenuation
-      - ecospheres-indicateurs-famille-transports
-      - ecospheres-indicateurs-sous-famille-reseau-cyclable
-      - ecospheres-indicateurs-levier-elevage
+      - ecospheres-indicateurs-enjeu-adaptation
+      - ecospheres-indicateurs-levier-restauration-des-habitats-naturels
       - ecospheres-indicateurs-secteur-dechets
-      - ecospheres-indicateurs-producteur-geovelo
-      - ecospheres-indicateurs-usage-usage-2
+      - ecospheres-indicateurs-producteur-openstreetmap
+      - ecospheres-indicateurs-usage-tdb-mobilite-durable
   - id: 6744a64ef5cda6cf3d069f1f
     title: "Pouvoir de réchauffement global"
     description: |
       Pouvoir de réchauffement global par secteur (Agriculture/CO2 biomasse hors total/Déchets/Energie/Industrie hors énergie/Résidentiel/Tertiaire/Transports
     tags:
       - ecospheres-indicateurs-theme-autre
-      - ecospheres-indicateurs-enjeu-attenuation
-      - ecospheres-indicateurs-famille-transverse
-      - ecospheres-indicateurs-sous-famille-emissions
-      - ecospheres-indicateurs-levier-gestion-forets
+      - ecospheres-indicateurs-enjeu-adaptation
+      - ecospheres-indicateurs-levier-sobriete-des-batiments-residentiel
       - ecospheres-indicateurs-secteur-batiment
