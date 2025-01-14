@@ -2,7 +2,7 @@ indicators:
   organization_id: 673dafb02cf54cfb2ccbd118
   global_tag_prefix: ecospheres-indicateurs
   filters:
-  - name: Thématique FNV
+  - name: Thématique
     id: theme
     color: green-menthe
     values:
@@ -20,7 +20,7 @@ indicators:
       name: Mieux consommer
     - id: autre
       name: Autre
-  - name: Enjeu FNV
+  - name: Enjeu
     id: enjeu
     color: blue-ecume
     values:
@@ -56,7 +56,7 @@ indicators:
       name: Transport de marchandises
     - id: transport-voyageurs
       name: Transport de voyageurs
-  - name: Levier FNV
+  - name: Levier
     id: levier
     color: green-archipel
     values:
