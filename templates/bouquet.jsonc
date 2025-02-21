@@ -13,18 +13,9 @@
     // valeur en prod
     "univers-ecospheres"
   ],
-  "datasets": {
-    "rel": "subsection",
-    "href": "https://www.data.gouv.fr/api/2/topics/65f01f2e30617159e1ed5f39/datasets/?page=1&page_size=20",
-    "type": "GET",
-    "total": 24
-  },
-  "reuses": {
-    "rel": "subsection",
-    "href": "https://www.data.gouv.fr/api/2/topics/65f01f2e30617159e1ed5f39/reuses/?page=1&page_size=20",
-    "type": "GET",
-    "total": 0
-  },
+  // liste des ids techniques des jeux de données (indicateurs) qui composent le bouquet — cf plus bas
+  "datasets": ["611621d492ac7754de4186f0"],
+  "reuses": [],
   "featured": false,
   // brouillon ou non
   "private": false,
@@ -39,25 +30,7 @@
   },
   "last_modified": "2025-02-01T20:53:36.748000+00:00",
   // organisation propriétaire (envoyer seulement l'id en POST)
-  "organization": {
-    "name": "Métropole de Lyon",
-    "acronym": null,
-    "uri": "https://www.data.gouv.fr/api/1/organizations/grand-lyon/",
-    "slug": "grand-lyon",
-    "page": "https://www.data.gouv.fr/fr/organizations/grand-lyon/",
-    "logo": "https://static.data.gouv.fr/avatars/db/ae49a00b5f48b1ba8194345cd40531-original.jpg",
-    "logo_thumbnail": "https://static.data.gouv.fr/avatars/db/ae49a00b5f48b1ba8194345cd40531-100.jpg",
-    "badges": [
-      {
-        "kind": "local-authority"
-      },
-      {
-        "kind": "certified"
-      }
-    ],
-    "id": "534fff7aa3a7292c64a77e0c",
-    "class": "Organization"
-  },
+  "organization": "534fff7aa3a7292c64a77e0c",
   "owner": null,
   "uri": "https://www.data.gouv.fr/api/1/topics/calque-de-plantabilite/",
   "page": "https://www.data.gouv.fr/fr/topics/calque-de-plantabilite/",
