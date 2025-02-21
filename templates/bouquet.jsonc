@@ -1,0 +1,89 @@
+{
+  "id": "65f01f2e30617159e1ed5f39",
+  // titre - libellé du bouquet
+  "name": "Calque de plantabilité",
+  "slug": "calque-de-plantabilite",
+  // description du bouquet (markdown)
+  "description": "Le projet de calque de plantabilité a été initié dans le dernier trimestre de 2021. Il s’inscrit dans le **Plan Nature de la Métropole de Lyon** (Métropole de Lyon, 2022). Celui-ci a pour ambition de planter **300 000 arbres sur le territoire d’ici 2030**. Cet objectif se heurte toutefois à de nombreuses contraintes, tant sur la dimension opérationnelle d’un tel objectif, que l’identification même des « zones à planter ». La prise de décision est souvent complexe, multifactorielle et sectorielle tant elle dépend des pratiques et connaissances sur l’ensemble du territoire. Le tissu métropolitain est extrêmement varié et le sous-sol dense complique l’acte de plantation d’un arbre.\n\nCe projet a pour ambition de permettre une plantation plus efficiente et prédictive sur le territoire. Le calque de plantabilité représente une vision du territoire orientée sur la problématique **Où peut-on planter un arbre sur le territoire de la Métropole de Lyon ?**\n\nC’est un **carroyage de 5m par 5m où chaque carreau comporte un indicateur informant sur le potentiel de plantabilité.** La couleur du carreau transcrit s’il est plus ou moins facile de planter. Ce potentiel de plantabilité est déterminé à partir de différents facteurs qui influencent positivement ou négativement l’acte de plantation.\n\n### À qui s'adresse le calque de plantabilité?\nLe projet a pour ambition de satisfaire les besoins des équipes terrains en charge de la plantation des arbres sur la Métropole de Lyon. Les équipes en question sont les agents  au sein du Patrimoine Végétal (PVE). Mais les communes de la Métropole de Lyon peuvent aussi bénéficier du calque pour accélérer leur plan de végétalisation. \n\n### Porteurs du projet\nEquipe [DatAgora](https://datagora.erasme.org/) (laboratoire d'innovation Erasme de la Métropole de Lyon, service données métropolitaines de la Métropole de Lyon, Université de Lyon) en collaboration avec les équipes du service Patrimoine Végétal (PVE).\n\n### Références\n[Kit de découverte du calque de plantabilité](https://erasme.notion.site/Kit-de-d-couverte-du-calque-de-plantabilit-4a4ce2b615874903afe204ddbd5b94cd)\n[Page de présentation du projet](https://datagora.erasme.org/projets/calque-de-plantabilite/) \n\n### Dépôts Gitlab \n[Scripts de calcul](https://forge.grandlyon.com/erasme/script-recalcul-calque)\n[Plateforme front-end](https://forge.grandlyon.com/erasme/plateforme-calque-front)\n[Plateforme back-end](https://forge.grandlyon.com/erasme/plateforme-calque-back)",
+  // tag qui identifie le topic comme un bouquet
+  // WARNING: tag différent en demo et prod
+  "tags": [
+    // valeur en demo
+    "ecospheres",
+    // valeur en prod
+    "univers-ecospheres"
+  ],
+  "datasets": {
+    "rel": "subsection",
+    "href": "https://www.data.gouv.fr/api/2/topics/65f01f2e30617159e1ed5f39/datasets/?page=1&page_size=20",
+    "type": "GET",
+    "total": 24
+  },
+  "reuses": {
+    "rel": "subsection",
+    "href": "https://www.data.gouv.fr/api/2/topics/65f01f2e30617159e1ed5f39/reuses/?page=1&page_size=20",
+    "type": "GET",
+    "total": 0
+  },
+  "featured": false,
+  // brouillon ou non
+  "private": false,
+  "created_at": "2024-03-12T09:23:58.287000+00:00",
+  // couverture géographique (idem indicateur / jeu de données)
+  "spatial": {
+    "geom": null,
+    "zones": [
+      "fr:epci:200046977"
+    ],
+    "granularity": "other"
+  },
+  "last_modified": "2025-02-01T20:53:36.748000+00:00",
+  // organisation propriétaire (envoyer seulement l'id en POST)
+  "organization": {
+    "name": "Métropole de Lyon",
+    "acronym": null,
+    "uri": "https://www.data.gouv.fr/api/1/organizations/grand-lyon/",
+    "slug": "grand-lyon",
+    "page": "https://www.data.gouv.fr/fr/organizations/grand-lyon/",
+    "logo": "https://static.data.gouv.fr/avatars/db/ae49a00b5f48b1ba8194345cd40531-original.jpg",
+    "logo_thumbnail": "https://static.data.gouv.fr/avatars/db/ae49a00b5f48b1ba8194345cd40531-100.jpg",
+    "badges": [
+      {
+        "kind": "local-authority"
+      },
+      {
+        "kind": "certified"
+      }
+    ],
+    "id": "534fff7aa3a7292c64a77e0c",
+    "class": "Organization"
+  },
+  "owner": null,
+  "uri": "https://www.data.gouv.fr/api/1/topics/calque-de-plantabilite/",
+  "page": "https://www.data.gouv.fr/fr/topics/calque-de-plantabilite/",
+  "extras": {
+    "ecospheres": {
+      // liste des jeux de données (indicateurs) rattachés à un bouquet
+      "datasets_properties": [
+        {
+          // invariant dans le cas des indicateurs
+          "availability": "available",
+          // id technique data.gouv.fr du jeu de données qui représentent l'indicateur
+          "id": "611621d492ac7754de4186f0",
+          // raison d'utilisation de l'indicateur dans le bouquet
+          "purpose": "Obstacle souterrain.",
+          // titre / libellé de l'indicateur dans le bouquet
+          "title": "Réseau de fibre optique",
+          // f"/datasets/{id}" en réutilisation l'id du jeu de données
+          "uri": "/datasets/611621d492ac7754de4186f0",
+          // groupe de l'indicateur dans le bouquet
+          "group": "01 - Réseaux électriques et télécoms"
+        }
+      ],
+      // Thématique et chantier FNV, voir la liste des valeurs (spécifique aux bouquets)
+      // https://github.com/opendatateam/udata-front-kit/blob/6479eae1adb92d69e8869862fd133cf3d15ddd9d/configs/ecospheres/config.yaml#L203
+      "theme": "Préserver",
+      "subtheme": "Sols"
+    }
+  }
+}
